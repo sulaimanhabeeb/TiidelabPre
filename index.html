@@ -3,16 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- external css link-->
+    <link rel="stylesheet" href="style.css">
     <title>Tiidelab Pre Class</title>
+    <style>
+        div{
+            color: darkorange ; background: gold;
+        }
+
+        /* id selector*/
+        #first-p{
+            color:brown; font-size: 20px;
+            background: black;
+            font-family:serif;
+        }
+
+        /*class selector*/
+        .second-p{
+            color:floralwhite;
+            background: green;
+            font-size: 15px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
 </head>
 
+<!--
+    inline css
+-->
 
-<h1>Hello World</h1>
-<h2>Hello World</h2>
-<h3>Hello World</h3>
-<h4>Hello World</h4>
-<h5>Hello World</h5>
-<h6>Hello World</h6>
+
+<h1 style="color: red ;background:black;font-size: 30px;">Hello World</h1>
+<h2 style="color: blue;font-style: oblique;">Hello World</h2>
+<h3 style="font-weight: 800;font-style: italic;">Hello World</h3>
+<h4 style="color:yellow; background: black ;font-size: 33px;font-style: italic;">Hello World</h4>
+<h5 style="font-style: italic;color: aqua;font-size: 30px;background: red;">Hello World</h5>
+<h6 style="color: darkcyan; background: darkgoldenrod;">Hello World</h6>
 
 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos deleniti maiores architecto facilis odio, doloribus hic esse. Dolores iste cumque excepturi molestiae dignissimos voluptate commodi tenetur perspiciatis temporibus vero.</div>
 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quos deleniti maiores architecto facilis odio, doloribus hic esse. Dolores iste cumque excepturi molestiae dignissimos voluptate commodi tenetur perspiciatis temporibus vero.</div>
@@ -30,9 +56,33 @@
 <li>e</li>    
 </nav>
 
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis ipsum libero, provident sit hic quis porro atque doloremque animi quam debitis, praesentium, nulla dolorum ab corrupti corporis laudantium accusantium.</p>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis ipsum libero, provident sit hic quis porro atque doloremque animi quam debitis, praesentium, nulla dolorum ab corrupti corporis laudantium accusantium.</p>
+<p id="first-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis ipsum libero, provident sit hic quis porro atque doloremque animi quam debitis, praesentium, nulla dolorum ab corrupti corporis laudantium accusantium.</p>
+<p class="second-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum blanditiis ipsum libero, provident sit hic quis porro atque doloremque animi quam debitis, praesentium, nulla dolorum ab corrupti corporis laudantium accusantium.</p>
+<ol class="yellow-group">
+    <li>Rice</li>
+    <li>Yam</li>
+    <li>Potato</li>
+    <li>Egg</li>
+    <li>Beans</li>
+    <li>Meat</li>
+    </ol>
 
+    <ul class="red-group">
+        <li>Rice</li>
+        <li>Yam</li>
+        <li>Potato</li>
+        <li>Egg</li>
+        <li>Beans</li>
+        <li>Meat</li>   
+    </ul>
+
+    <ol class="orange-group"><li>Rice</li>
+    <li>Yam</li>
+    <li>Potato</li>
+    <li>Egg</li>
+    <li>Beans</li>
+    <li>Meat</li>
+    </ol>
 <span>span text here</span>
 
 <hr>
